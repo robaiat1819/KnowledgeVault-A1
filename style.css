@@ -52,3 +52,68 @@ nav {
   background-color: darkgreen;
   border-radius: 4px;
 }
+
+.banner-section {
+  background-image: url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 2042px;
+  max-height: 1363px;
+}
+
+.btn-1 {
+  gap: 3px;
+  padding: 15px 20px;
+  margin: 10px;
+  background: #ffffff;
+  color: #405d41;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.btn-1 img {
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.banner-content h1 {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  /* text-align: center; */
+  text-transform: capitalize;
+  padding: 10px;
+}
+.banner-content h1 span {
+  color: #30b868;
+}
+/* .banner-content {
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: 2px solid yellow;
+} */
+
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  padding: 10px 120px;
+  border: 2px solid yellow;
+}
+
+.banner-content p {
+  padding: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+}
